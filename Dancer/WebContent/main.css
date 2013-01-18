@@ -1,5 +1,9 @@
 @CHARSET "ISO-8859-1";
 
+fieldset{
+	color: #FFFF99;
+}
+
 h1,h3,p,td {
 	color: #FFFF99;
 }
@@ -322,21 +326,24 @@ td.td_contact{
 }
 
 div#quotes{
-	width: 450px;
+	float: left;
+	width: 350px;
 	height: 200px;
-	margin-left: 50px;
 	text-shadow: 5px 5px 5px #300000;
 }
 
 p.author{
 	font-family: Ariel;
 	font-size: small;
+	margin-left: 10px;
 }
 
 p.quote{
 	font-family: Ariel;
 	font-size: large;
 	font-weight: bolder;
+	margin-left: 10px;
+	margin-top: -250px;
 }
 
 #imapFrame{
@@ -344,7 +351,7 @@ p.quote{
 }
 
 div#imap{
-	margin-left: 50px;
+	margin-left: 100px;
 	margin-top: 80px;	
 }
 
@@ -367,10 +374,19 @@ div#dancePupils{
 }
 
 div#contactForm{
-	width: 300px;
-	height: 300px;
-	margin-top: -120px;
-	display: none;
+	width: 400px;
+	height: 300px;	
+	margin-left: 100px;
+	margin-top: 10px;
+	display: block;
+}
+
+
+th{
+	border-stlye: solid;
+}
+th.cform{
+	text-align: left;
 }
 
 input.button{background:  #580000 url('img/contact_1.png') no-repeat top; width:120px; height: 26px; border-style: none; margin-left: 1px;}
