@@ -105,51 +105,59 @@
 			</table>
 		</div>
 		
-		<div id="quotes" class="contacts">			
+		<div class="contacts" id="contactForm">
+			<form method="POST" action="bigContact.php">
+				<fieldset>
+					<legend>Ask a question</legend>
+					<table>
+						<tr>
+							<th scope="row" class="cform"><label for="dateBox">To</label></th>
+							<td><input type="text" name="To"/></td>
+						</tr>
+						<tr>
+							<th scope="row" class="cform"><label for="dateBox">From</label></th>
+							<td><input type="text" name="From"/></td>
+						</tr>
+						<tr>
+							<th scope="row" class="cform"><label for="dateBox">Subject</label></th>
+							<td> <input type="text" name="Subject"/></td>
+						</tr>
+						<tr>
+							<th scope="row" class="cform"><label for="dateBox">Body</label></th>
+							<td> <textarea name="Body" rows="5" cols="20"></textarea></td>
+						</tr>
+						<tr>
+							<td></td>							
+							<td><input type="submit"/></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
 		</div>
 
-		
-		
-			<div id="imap" class="contacts" style="width: 410px">
-					
-				<iframe class="contacts" width="400" height="300" id="imapFrame"
-					src="http://regiohelden.de/google-maps/map_en.php?width=600&amp;height=300&amp;hl=en&amp;q=School%20Lane%2C%20Knowsley%20Village%2C%20Merseyside%2C%20L34%209EN%20+(Knowsley%20School%20of%20Dance)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed"
-					frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-					<a href="http://www.regiohelden.de/google-maps/">Google Maps
-						Generator</a> von <a href="http://www.regiohelden.de/">RegioHelden</a>
-				</iframe>
-				<br />
-				<span style="font-size: 9px;"><a
-					href="http://www.regiohelden.de/google-maps/"
-					style="font-size: 9px;">Google Maps Generator</a> by <a
-					href="http://www.regiohelden.de/" style="font-size: 9px;">RegioHelden</a>
-				</span>
-			</div>
-		
-		<div class="contacts" id="contactForm">			
-			
-			
-				
-		<form method="POST" action="bigContact.php">
-			To <input type="text" name="To"/> <br />
-			From <input type="text" name="From"/> <br />
-			Subject <input type="text" name="Subject"/> <br />
-			Body <textarea name="Body" rows="5" cols="20"  > 
-				</textarea>
-			<input type="submit" />
-		</form>
-		
-			 
+		<div id="imap" class="contacts" style="width: 410px">
 
+			<iframe class="contacts" width="400" height="300" id="imapFrame"
+				src="http://regiohelden.de/google-maps/map_en.php?width=600&amp;height=300&amp;hl=en&amp;q=School%20Lane%2C%20Knowsley%20Village%2C%20Merseyside%2C%20L34%209EN%20+(Knowsley%20School%20of%20Dance)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed"
+				frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+				<a href="http://www.regiohelden.de/google-maps/">Google Maps
+					Generator</a> von <a href="http://www.regiohelden.de/">RegioHelden</a>
+			</iframe>
+			<br /> <span style="font-size: 9px;"><a
+				href="http://www.regiohelden.de/google-maps/"
+				style="font-size: 9px;">Google Maps Generator</a> by <a
+				href="http://www.regiohelden.de/" style="font-size: 9px;">RegioHelden</a>
+			</span>
+		</div>
+
+		<div id="quotes" class="contacts">			
 		</div>
 		
 	</div>
-	
-
-	
+		
 	 <div id="final">
             <p id="footer"> ©  <strong>Knowsley Dance Ltd.</strong> <a href="http://www.knowsleyschoolofdance.co.uk"> www.knowsleyschoolofdance.co.uk </a></p>     
-       </div>
+      </div>
 	
 </body>
 </html>
