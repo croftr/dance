@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -107,31 +107,29 @@
 		
 		<div class="contacts" id="contactForm">
 			<form method="POST" action="bigContact.php">
-				<fieldset>
-					<legend>Ask a question</legend>
+					<p>Ask a question</p>
 					<table>
 						<tr>
-							<th scope="row" class="cform"><label for="dateBox">Your Name</label></th>
-							<td><input type="text" name="Name"/></td>
+							<th scope="row" class="cform"><label for="dateBox">Name</label></th>
+							<td><input type="text" name="Name" required="required" class="inputtext"/></td>
 						</tr>
 						<tr>
 							<th scope="row" class="cform"><label for="dateBox">Email</label></th>
-							<td><input type="text" name="Email"/></td>
+							<td><input type="email" id="email" name="Email" required="required" class="inputtext" title="email or phone number is required so we can get back to you"/></td>
 						</tr>
 						<tr>
 							<th scope="row" class="cform"><label for="dateBox">Phone</label></th>
-							<td> <input type="text" name="Tel"/></td>
+							<td><input type='tel' name="Tel" class="inputtext" title='Your mobile or land line if you want contacting'></td>
 						</tr>
 						<tr>
-							<th scope="row" class="cform"><label for="dateBox">Body</label></th>
-							<td> <textarea name="Message" rows="5" cols="20"></textarea></td>
+							<th scope="row" class="cform"><label for="dateBox">Question</label></th>
+							<td> <textarea name="Message" rows="5" cols="30" ></textarea></td>
 						</tr>
 						<tr>
 							<td></td>							
-							<td><input type="submit"/></td>
+							<td><input type="image" src="img/contact.png" /></td>
 						</tr>
 					</table>
-				</fieldset>
 			</form>
 		</div>
 

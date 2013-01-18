@@ -1,10 +1,13 @@
 @CHARSET "ISO-8859-1";
 
+
 fieldset{
 	color: #FFFF99;
 }
 
-h1,h3,p,td {
+
+
+h1,h3,p,td{
 	color: #FFFF99;
 }
 
@@ -378,7 +381,12 @@ div#contactForm{
 	height: 300px;	
 	margin-left: 100px;
 	margin-top: 10px;
-	display: block;
+	display: block;	
+	border-radius:25px;	
+}
+
+.inputtext { 
+	width: 240px; 
 }
 
 
@@ -389,9 +397,18 @@ th.cform{
 	text-align: left;
 }
 
+input:focus {
+	border: solid 2px #CFB53B;
+}
+
+
+textarea:focus {
+	border: solid 2px #CFB53B;
+}
+
 input.button{background:  #580000 url('img/contact_1.png') no-repeat top; width:120px; height: 26px; border-style: none; margin-left: 1px;}
-input:focus {border: solid 2px #FFFF99;}
-textarea:focus {border: solid 2px #FFFF99;}
+
+
 /*end contact page */
 
 /****************************** Shows ************************************************/
