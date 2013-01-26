@@ -385,6 +385,14 @@ div#contactForm{
 	border-radius:25px;	
 }
 
+form>p{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* .question{ */
+/* 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+/* } */
+
 .inputtext { 
 	width: 240px; 
 }
