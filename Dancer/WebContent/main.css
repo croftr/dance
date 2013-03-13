@@ -12,7 +12,11 @@ h1,h3,p,td{
 }
 
 th{
-color: #B18904;
+	color: #B18904;
+}
+
+th.headmiddle{
+	padding-top: 20px;
 }
 
 li{
@@ -380,7 +384,7 @@ div#contactForm{
 	width: 400px;
 	height: 300px;	
 	margin-left: 100px;
-	margin-top: 10px;
+	margin-top: -10px;
 	display: block;	
 	border-radius:25px;	
 }
@@ -405,16 +409,47 @@ th.cform{
 	text-align: left;
 }
 
-input:focus {
-	border: solid 2px #CFB53B;
+input.inputtext, textarea {
+	color: #5a5854;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: block;
 }
 
+input.inputtext:focus, input.inputtext:hover, textarea:hover, textarea:focus {
+	border: solid 2px #CFB53B;
+}
 
 textarea:focus {
 	border: solid 2px #CFB53B;
 }
 
-input.button{background:  #580000 url('img/contact_1.png') no-repeat top; width:120px; height: 26px; border-style: none; margin-left: 1px;}
+fieldset {
+	width: 350px;
+	border: 1px solid #FFFF99;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+legend {
+	background-color: #B18904;;
+	border: 1px solid #FFFF99;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	text-transform: uppercase;
+	color: black;
+}
+
+
+
+input.button1 {
+	text-align: left
+}
 
 
 /*end contact page */

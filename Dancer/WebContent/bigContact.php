@@ -1,6 +1,6 @@
 <?php
 
-$EmailFrom = "Dance Website";
+$EmailFrom = Trim(stripslashes($_POST['Email']));
 $EmailTo = "dance@knowsleyschoolofdance.co.uk";
 $Subject = "online form";
 $Name = Trim(stripslashes($_POST['Name']));
