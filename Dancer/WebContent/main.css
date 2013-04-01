@@ -170,7 +170,7 @@ div#mainBody{
 
 div#mainContent{
 	float: right;
-	margin-top: 10px;
+	margin-top: -10px;
 	margin-right: 25px;
 	background-color: #580000;
 	width: 850px;
